@@ -1,4 +1,4 @@
-U22978120
+// U22978120
 
 //Creating the car class with constructor
 class Car {
@@ -20,4 +20,22 @@ brake() {
 }
 }
 
-    
+// Test Data
+  const bmw = new Car('BMW', 120);
+const mercedes = new Car('Mercedes', 95);
+
+//Test accelerating and braking on BMW
+console.log("Testing BMW:");
+bmw.accelerate(); // 130 km/h
+bmw.accelerate(); // 140 km/h
+bmw.accelerate(); // 150 km/h
+bmw.brake(); // 145 km/h
+bmw.brake(); // 140 km/h
+
+// Test accelerating and braking on Mercedes
+console.log("Testing Mercedes:");
+mercedes.accelerate(); // 105 km/h
+mercedes.accelerate(); // 115 km/h
+mercedes.accelerate(); // 125 km/h
+mercedes.brake(); // 120 km/h
+mercedes.brake(); // 115 km/h
