@@ -12,4 +12,12 @@ accelerate() {
   this.speed += 10;
   console.log(`${this.make} speed increased to ${this.speed} km/h`);
 }
-  
+
+// Implementing a brake method that decreases the car's speed by 5 km/h
+brake() {
+  this.speed -=5;
+  console.log(`${this.make} speed decreased to ${this.speed} km/h`);
+}
+}
+
+    
